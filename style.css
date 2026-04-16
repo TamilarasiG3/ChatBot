@@ -1,0 +1,133 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Body */
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Chat container */
+.chat-container {
+    width: 360px;
+    height: 520px;
+    background: #1e1e2f;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+    overflow: hidden;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Header */
+.chat-header {
+    background: #111827;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Messages */
+.chat-messages {
+    flex: 1;
+    padding: 12px;
+    overflow-y: auto;
+    color: #f4f8f9;  /* light cyan */
+}
+
+
+/* Scrollbar */
+.chat-messages::-webkit-scrollbar {
+    width: 5px;
+}
+.chat-messages::-webkit-scrollbar-thumb {
+    background: #dfccdf;
+    border-radius: 10px;
+}
+
+/* Message base */
+.message {
+    margin: 10px 0;
+    display: flex;
+    animation: slideUp 0.3s ease;
+}
+
+/* User message */
+.user-message {
+    justify-content: flex-end;
+}
+.user-message p {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: rgb(255, 253, 253);
+    padding: 10px 14px;
+    border-radius: 15px 15px 0 15px;
+    max-width: 70%;
+    box-shadow: 0 4px 10px rgba(11, 168, 230, 0.4);
+}
+
+/* Bot message */
+.bot-message {
+    justify-content: flex-start;
+}
+.bot-message p {
+    background: #0101ea;
+    color: #ddd;
+    padding: 10px 14px;
+    border-radius: 15px 15px 15px 0;
+    max-width: 70%;
+    box-shadow: 0 4px 10px rgba(16, 184, 240, 0.4);
+}
+
+/* Input area */
+.chat-input {
+    display: flex;
+    border-top: 1px solid #160e34;
+}
+
+/* Input */
+.chat-input input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background: #1e1e2f;
+    color: rgb(249, 247, 247);
+}
+
+/* Button */
+.chat-input button {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    border: none;
+    color: rgb(11, 1, 1);
+    padding: 12px 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+.chat-input button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
