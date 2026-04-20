@@ -10,20 +10,10 @@ A simple and responsive manual chatbot web application built using HTML, CSS, an
 📱 Fully responsive (works on mobile & desktop)
 🔘 Send message using button or Enter key
 
-## 🛠️ Technologies Used
-HTML5 – Structure
-CSS3 – Styling & layout
-JavaScript (Vanilla JS) – Logic & interaction
 
-## 📂 Project Structure
-manual-chatbot/
-│
-├── index.html        # Main HTML file
-├── style.css         # Styling file
-├── script.js         # Chatbot logic
-└── README.md         # Project documentation
-
-```html```
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
 
 ## ⚙️ How It Works
 User types a message in the input box
