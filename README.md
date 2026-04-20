@@ -10,10 +10,14 @@ A simple and responsive manual chatbot web application built using HTML, CSS, an
 📱 Fully responsive (works on mobile & desktop)
 🔘 Send message using button or Enter key
 
+## 🧠 Technologies Used
 
-![HTML](https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5)
-![CSS](https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
+![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
+![Git](https://img.shields.io/badge/Git-orange?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
+
 
 ## ⚙️ How It Works
 User types a message in the input box
